@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taylor’s Flower & Bunny Journal</title>
+ 
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #faf7f2;
+            color: #4a4a4a;
+            line-height: 1.7;
+        }
+ 
+        header {
+            background: linear-gradient(120deg, #f6d365, #fda085);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+ 
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+ 
+        header p {
+            font-size: 1.2rem;
+        }
+ 
+        nav {
+            background: white;
+            padding: 0.8rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+ 
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #f08a5d;
+            font-weight: 600;
+        }
+ 
+        main {
+            max-width: 1000px;
+            margin: 2.5rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: 2.5fr 1fr;
+            gap: 2rem;
+        }
+ 
+        article, aside {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+        }
+ 
+        article h2 {
+            margin-top: 0;
+            color: #333;
+        }
+ 
+        .meta {
+            font-size: 0.9rem;
+            color: #999;
+            margin-bottom: 1rem;
+        }
+ 
+        footer {
+            margin-top: 3rem;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+ 
+        @media (max-width: 900px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <h1>PATH 1 - PAGE DEFAULT</h1>
+    <p>PATH 1 - PAGE DEFAULT</p>
+</header>
+ 
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Flowers</a>
+    <a href="#">Bunnies</a>
+    <a href="#">Danny</a>
+    <a href="#">About</a>
+</nav>
+ 
+<main>
+    <!-- Blog Posts -->
+    <section>
+        <article>
+            <h2>The Calm of Flowers & Rabbits</h2>
+            <div class="meta">April 2026 · 🌷🐰</div>
+            <p>
+                There’s something deeply calming about flowers and rabbits.
+                Flowers grow quietly, and rabbits live gently — both remind
+                me to slow down and appreciate small, beautiful moments.
+            </p>
+            <p>
+                When I watch a rabbit sitting still among flowers,
+                the world suddenly feels softer.
+            </p>
+        </article>
+ 
+        <article>
+            <h2>Danny, My Boi</h2>
+            <div class="meta">Personal · 💛</div>
+            <p>
+                This space wouldn’t be complete without mentioning <strong>Danny</strong>.
+                My boi, my constant presence, my reminder that connection matters.
+            </p>
+            <p>
+                Some days are better just because Danny exists.
+            </p>
+        </article>
+    </section>
+ 
+    <!-- Sidebar -->
+    <aside>
+        <h3>About Taylor 🌼</h3>
+        <p>
+            I’m Taylor — I love flowers, rabbits, peaceful moments, and
+            the simple happiness shared with someone special.
+        </p>
+ 
+        <h3>Things I Love</h3>
+        <ul>
+            <li>🌸 Flowers (Peonies & Tulips)</li>
+            <li>🐰 Rabbits</li>
+            <li>📷 Nature photography</li>
+            <li>☀️ Quiet mornings</li>
+            <li>💛 Danny (my boi)</li>
+        </ul>
+    </aside>
+</main>
+ 
+<footer>
+    © 2026 Taylor · Made with 🌸🐰 and love
+</footer>
+ 
+</body>
+</html>
+``
