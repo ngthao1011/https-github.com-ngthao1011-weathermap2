@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layer 7 Deep Dive</title>
+
+<style>
+    body {
+        font-family: Arial;
+        background: #020617;
+        color: #e2e8f0;
+        margin: 0;
+    }
+
+    header {
+        background: #2563eb;
+        padding: 30px;
+        text-align: center;
+    }
+
+    section {
+        padding: 40px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    h2 {
+        color: #38bdf8;
+    }
+
+    button {
+        background: #38bdf8;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Layer 7 (Application Layer) in Azure Networking</h1>
+</header>
+
+<section>
+
+<div class="card">
+    <h2>What is Layer 7?</h2>
+    <p>
+        Layer 7 represents the Application Layer in the OSI model.
+        It handles HTTP/HTTPS traffic, user requests, headers, cookies,
+        and application-level routing decisions.
+    </p>
+
+    <p>
+        Unlike Layer 4, Layer 7 allows intelligent routing based on:
+        URL path, hostname, headers, query strings and security rules.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Azure Products for Layer 7</h2>
+
+    <ul>
+        <li><strong>Application Gateway (WAF v2)</strong>  
+            - Layer 7 load balancer  
+            - SSL offloading & end-to-end TLS  
+            - Web Application Firewall protection
+        </li>
+
+        <li><strong>Azure Front Door</strong>  
+            - Global Layer 7 load balancing  
+            - Anycast routing & low latency  
+            - CDN + security integration
+        </li>
+
+        <li><strong>API Management (APIM)</strong>  
+            - API gateway  
+            - Authentication, throttling, transformation  
+            - Backend abstraction
+        </li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Real Technical Capabilities</h2>
+    <ul>
+        <li>Host-based routing (multi-site hosting)</li>
+        <li>Path-based routing (/api, /app, /images)</li>
+        <li>SSL/TLS certificate lifecycle management</li>
+        <li>Rewrite rules (headers, URL transformations)</li>
+        <li>Integration with Azure Key Vault</li>
+        <li>WAF policy tuning & security protection</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>My Role & Experience</h2>
+    <p>
+        I specialize in diagnosing complex Layer 7 issues such as:
+        HTTP 502/403/500 errors, TLS handshake failures,
+        misconfigured routing rules, and WAF false positives.
+    </p>
+
+    <p>
+        I have supported enterprise-grade production systems,
+        delivering strong RCA (Root Cause Analysis) and
+        long-term architectural improvements.
+    </p>
+</div>
+
+<button onclick="goBack()">⬅ Back to Portfolio</button>
+
+</section>
+
+<script>
+function goBack() {
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
