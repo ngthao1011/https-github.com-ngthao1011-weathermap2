@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Azure Networking Engineer</title>
+<title>Taylor Nguyen | Azure Networking Engineer</title>
 
 <style>
     body {
@@ -19,17 +19,27 @@
         text-align: center;
     }
 
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    header p {
+        margin: 5px 0;
+    }
+
     section {
         padding: 40px;
-        max-width: 900px;
+        max-width: 1000px;
         margin: auto;
     }
 
     .card {
         background: #1e293b;
         padding: 20px;
-        margin: 15px 0;
+        margin: 20px 0;
         border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
     button {
@@ -48,22 +58,57 @@
         background: #0ea5e9;
         color: white;
     }
+
+    .highlight {
+        color: #38bdf8;
+        font-weight: bold;
+    }
+
+    ul {
+        line-height: 1.8;
+    }
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Azure Networking Engineer</h1>
-    <p>Expert in Layer 7 Traffic & Cloud Networking</p>
+    <h1>Taylor Nguyen</h1>
+    <p><strong>Azure Networking Engineer</strong></p>
+    <p>📍 Singapore | Cloud & Layer 7 Specialist</p>
 </header>
 
 <section>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated Azure Networking Engineer specializing in 
+            <span class="highlight">Layer 7 application delivery, security, and traffic optimization</span>.
+        </p>
+
+        <p>
+            I work on enterprise-grade cloud environments, focusing on Application Gateway,
+            Front Door, and API Management to ensure high availability, performance,
+            and secure application access.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🏆 Achievements</h2>
+        <ul>
+            <li>🏅 Annual Customer Hero 2025</li>
+            <li>🌐 Azure Front Door Expert</li>
+            <li>🚀 Trusted advisor in high-severity (Sev A/B) networking incidents</li>
+            <li>🔍 Strong track record in delivering RCA and long-term solutions</li>
+        </ul>
+    </div>
+
     <div class="card">
         <h2>Layer 7 Expertise</h2>
         <p>
-            Specialized in application-layer traffic control, HTTP routing,
-            SSL termination, and advanced reverse proxy design.
+            Specialized in HTTP/HTTPS traffic routing, SSL/TLS termination,
+            WAF protection, and advanced reverse proxy configuration.
         </p>
 
         <button onclick="goToLayer7()">Explore Layer 7 Deep Dive</button>
@@ -72,19 +117,20 @@
     <div class="card">
         <h2>Azure Products</h2>
         <p>
-            Hands-on experience with Application Gateway, Front Door,
-            API Management and secure cloud architecture.
+            Hands-on expertise across Azure Layer 7 services for secure
+            and scalable application delivery.
         </p>
+
+        <ul>
+            <li>Application Gateway (WAF v2)</li>
+            <li>Azure Front Door</li>
+            <li>API Management (APIM)</li>
+        </ul>
 
         <button onclick="goToLayer7()">View Product Details</button>
     </div>
+
 </section>
 
 <script>
 function goToLayer7() {
-    window.location.href = "layer7.html";
-}
-</script>
-
-</body>
-</html>
